@@ -36,7 +36,7 @@ insecure) put enrty in the exports file and run next cmd.
 ```bash
    mount -t nfs 172.31.9.70:/mnt /mnt
 ```
-run mount -t nfs command allow nfs port in both worker-node machines and nfs-volume machine and allow icmp-ipv4 in all machines for ping.
+Before run mount -t nfs command allow nfs port in both worker-node machines and nfs-volume machine and allow icmp-ipv4 in all machines for ping.
 ```bash
   vi /etc/fstab
 ```
