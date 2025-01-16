@@ -34,7 +34,7 @@ insecure) put enrty in the exports file and run next cmd.
     systemctl enable nfs-server --now
 ```
 ```bash
-   mount -t nfs 172.31.9.70:/mnt /mnt
+   mount -t nfs <nfs-machine ip addr>:/mnt /mnt
 ```
 Before run mount -t nfs command allow nfs port in both worker-node machines and nfs-volume machine and allow icmp-ipv4 in all machines for ping.
 ```bash
